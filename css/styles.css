@@ -70,6 +70,18 @@ address {
   color: #404bbf;
 }
 
+.menu-nav-address-mail {
+  color: #434455;
+}
+
+.menu-nav-address-mail:hover {
+  color: #404bbf;
+}
+
+.menu-nav-address-mail:focus {
+  color: #404bbf;
+}
+
 /*section-1*/
 
 .hero {
@@ -84,16 +96,10 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  padding-right: 472px;
-  padding-bottom: 48px;
 }
 
 .hero-button {
   background: #4d5ae5;
-  margin-left: 636px;
-  margin-right: 635px;
-  margin-bottom: 188px;
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
@@ -216,7 +222,6 @@ address {
 .footer-info a {
   text-decoration: none;
   flex-shrink: 0;
-  border-bottom: #e7e9fc;
 }
 
 .footer-logo {
@@ -233,7 +238,7 @@ address {
   color: var(--CLOUD, #f4f4fd);
 }
 
-.footer-info p {
+.footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-family: Roboto;
   font-size: 16px;
