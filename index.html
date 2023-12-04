@@ -26,10 +26,10 @@
       <!--nav info-->
       <nav>
         <a href="./index.html"
-          ><span class="logo-first-part">Web</span
-          ><span class="logo-second-part">Studio</span></a
+          ><span class="nav-logo-first-part">Web</span
+          ><span class="nav-logo-second-part">Studio</span></a
         >
-        <ul>
+        <ul class="menu-nav-link">
           <li>
             <a href="">Studio</a>
           </li>
@@ -42,13 +42,12 @@
         </ul>
       </nav>
 
-      <!--adress info-->
       <address class="menu-nav-address">
-        <ul class="social-links">
-          <liclass="link">
+        <ul>
+          <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <liclass="link">
+          <li>
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -57,6 +56,7 @@
 
     <!--main content-->
     <main>
+      <!-- Section-1 -->
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">
@@ -64,9 +64,9 @@
         </button>
       </section>
 
-      <!--information about the company's advantages-->
-      <section>
-        <h2>Company Advantages</h2>
+      <!-- Section-2 -->
+      <section class="advantages">
+        <h2 class="advantages-title">Company Advantages</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -102,11 +102,11 @@
         </ul>
       </section>
 
-      <!--information about the company team-->
-      <section>
-        <h2>Our Team</h2>
+      <!--Section-3-->
+      <section class="team-info">
+        <h2 class="team-info-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="team-card">
             <img
               src="./images/mark-guerrero.jpg"
               alt="a middle-aged man with a beard and a smile"
@@ -117,7 +117,7 @@
             <p>Product Designer</p>
           </li>
 
-          <li>
+          <li class="team-card">
             <img
               src="./images/tom-ford.jpg"
               alt="a nice-looking guy with a great smile"
@@ -128,7 +128,7 @@
             <p>Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="team-card">
             <img
               src="./images/camila-garcia.jpg"
               alt="an attractive girl in a pink sweater"
@@ -139,7 +139,7 @@
             <p>Marketing</p>
           </li>
 
-          <li>
+          <li class="team-card">
             <img
               src="./images/daniel-wilson.jpg"
               alt="a person who inspires confidence"
@@ -152,11 +152,11 @@
         </ul>
       </section>
 
-      <!--the company's portfolio-->
-      <section>
-        <h2>Our Portfolio</h2>
+      <!--section-4-->
+      <section class="portfolio">
+        <h2 class="portfolio-title">Our Portfolio</h2>
         <ul>
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-1.jpg"
               alt="display of 7 working screens of the mobile application"
@@ -167,7 +167,7 @@
             <p>App</p>
           </li>
 
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-2.jpg"
               alt="scanning a QR code with a mobile device"
@@ -178,7 +178,7 @@
             <p>Marketing</p>
           </li>
 
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-3.jpg"
               alt="playback of a synchronised image on the laptop monitor and mobile device display"
@@ -189,7 +189,7 @@
             <p>App</p>
           </li>
 
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-4.jpg"
               alt="safe use of the mobile application while driving"
@@ -200,7 +200,7 @@
             <p>Marketing</p>
           </li>
 
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-5.jpg"
               alt="lock screen and 4 working screens of the mobile device with different images of the moon of rocks in the fantasy style"
@@ -211,7 +211,7 @@
             <p>Design</p>
           </li>
 
-          <li>
+          <li class="project-card">
             <img
               src="./images/our-portfolio-img-6.jpg"
               alt="A red-haired girl in an orange sweater and grey hat is studying online with a mobile device and headphones"
@@ -226,8 +226,11 @@
     </main>
 
     <!--footer info-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="footer-info">
+      <a href="./index.html"
+        ><span class="footer-logo-first-part">Web</span
+        ><span class="footer-logo-second-part">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
