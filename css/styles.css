@@ -35,19 +35,19 @@ ol {
   color: #2e2f42;
 }
 
-.menu-nav-link li > a {
-  color: var(--NAVY-BLUE, #2e2f42);
+.menu-nav-link {
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.link:hover {
+.menu-nav-link:hover {
   color: #404bbf;
 }
 
-.link:focus {
+.menu-nav-link:focus {
   color: #404bbf;
 }
 
@@ -62,23 +62,15 @@ address {
   letter-spacing: 0.32px;
 }
 
+.menu-nav-address {
+  color: #434455;
+}
+
 .menu-nav-address:hover {
   color: #404bbf;
 }
 
 .menu-nav-address:focus {
-  color: #404bbf;
-}
-
-.menu-nav-address-mail {
-  color: #434455;
-}
-
-.menu-nav-address-mail:hover {
-  color: #404bbf;
-}
-
-.menu-nav-address-mail:focus {
   color: #404bbf;
 }
 
@@ -108,7 +100,7 @@ address {
 }
 
 .hero-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .hero-button:focus {
